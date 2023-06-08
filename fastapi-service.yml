@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  fastapi:
+    image: visu-image
+    container_name: visu-image-service
+    command: uvicorn service:app --reload --host 0.0.0.0 --port 8000
+    volumes:
+      - /opt/visu/visu-image:/opt/project
+    ports:
+      - 8000:8000

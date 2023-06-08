@@ -1,0 +1,9 @@
+[submodule "capsules/capsule"]
+	path = capsules/capsule
+	url = https://github.com/diginova/visu-package.git
+[submodule "components/component"]
+	path = components/component
+	url = https://github.com/diginova/visu-package.git
+[submodule "sdks/visu"]
+	path = sdks/visu
+	url = https://github.com/diginova/visu-sdk.git
